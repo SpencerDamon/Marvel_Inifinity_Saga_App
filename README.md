@@ -8,6 +8,16 @@ Marvel's challenge
 
 The idea is to deliver the application in the best possible way, according to the described functionalities.
 
+## How to make
+
+Clone this repository to your computer and create another branch with the pattern name below:
+
+"yourname"_first_step_challenge
+
+You can do as many commits and pushes as you need.
+
+When you finish the challenge let us know.
+
 ## Example
 
 For design you can follow the example below:
