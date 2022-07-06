@@ -12,4 +12,6 @@ The idea is to deliver the application in the best possible way, according to th
 
 For design you can follow the example below:
 
+Obs: For now, ignore other features shown in the example.
+
 <img src="https://media.giphy.com/media/hKrUcqLdMJQxTmzf6G/giphy.gif" width="40%" height="40%" />
