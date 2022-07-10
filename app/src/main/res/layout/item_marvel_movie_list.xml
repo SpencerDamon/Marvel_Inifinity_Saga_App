@@ -10,7 +10,7 @@
 
     <ImageView
         android:id="@+id/ivPoster"
-        android:layout_width="205dp"
+        android:layout_width="match_parent"
         android:layout_height="300dp"
         android:contentDescription="@null"
         android:scaleType="centerCrop"
@@ -22,14 +22,14 @@
 
     <TextView
         android:id="@+id/tvMovieName"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:background="#A5000000"
         android:backgroundTint="#000000"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@id/ivPoster"
         app:layout_constraintEnd_toEndOf="@id/ivPoster"
@@ -56,7 +56,6 @@
         android:id="@+id/tvReleasedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
         android:background="#F44336"
         android:paddingHorizontal="2dp"
         android:textAlignment="center"
