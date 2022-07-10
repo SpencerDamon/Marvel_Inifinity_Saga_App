@@ -31,8 +31,12 @@ ADDITIONAL NOTES:
     Had to do a lot of playing with padding and margin attributes to get correct look.
     (Need to study Layouts more)
 
+    Do not know how to add app icon
+
 fun TODO(): { Add Navigation - click on poster and navigate to a second activity to display summary. }
 
 fun TODO(): { Add Search - click on search icon in ActionBar, invoke Search Activity, Search by movie title, release date, or genre. }
 
 fun TODO(): { Add Filter - Filter movies by title, release date, or genre. }
+
+fun TODO(): { Add MARVEL Icon }

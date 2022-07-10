@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/spenc/AndroidStudioProjects/spencerchallenge/app/src/main/res/drawable/marvel_icon.xml" value="0.1" />
         <entry key="..\:/Users/spenc/AndroidStudioProjects/spencerchallenge/app/src/main/res/layout/activity_main.xml" value="0.24456521739130435" />
         <entry key="..\:/Users/spenc/AndroidStudioProjects/spencerchallenge/app/src/main/res/layout/item_marvel_movie_list.xml" value="0.1" />
       </map>
