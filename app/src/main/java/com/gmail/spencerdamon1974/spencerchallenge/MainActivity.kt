@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        supportActionBar?.title = "Marvel Infinity Saga"
+
         setupLoadingState()
         CoroutineScope(Dispatchers.IO).launch {
             val marvelMovies = marvelMovieRepository.getMarvelMovies().toList()
