@@ -1,0 +1,42 @@
+Points that were challenging:
+Problem: Adding an Empty Project template to an existing GitHub Repository
+Fix: Branched repo; created a new Empty Project from template;
+     copied template files to branch with File Explorer, used
+     .gitignore as a guide to which files to omit.
+
+Problem: Must Force Push to add branched commits to GitHub repo, problem
+         with file endings.
+Fix: ???
+
+Problem: Set number of rows for GridLayout in RecyclerView
+Fix: In RecyclerView element, add/set attribute app:spanCount="2"
+
+Problem: Failed Progress Loading test point in MainActivity - Error expected object but found
+         string instead.
+Fix: Studied JSON file again, noticed that each movie was a single object with string attributes,
+     unlike Countries app which had child objects and string attributes, for each parent country
+     object. Set attribute types to String in MarvelResponse class. Delete unnecessary declared
+     class files.
+
+Problem: Had to manually set ConstraintLayout width to 205dp for RecyclerView Row layout.
+Fix: Set RecyclerView Row Layout ConstraintLayout to "match_parent"
+
+Problem: Change the text in the ActionBar from "spencerchallenge" to "Marvel Infinity Saga".
+Fix: Add supportActionBar?.title = "Marvel Infinity Saga" to MainActivity OnCreate function.
+
+Problem: Movie title TextView with white text was difficult to see on some posters
+Fix: Add tint to TextView background.
+
+ADDITIONAL NOTES:
+    Had to do a lot of playing with padding and margin attributes to get correct look.
+    (Need to study Layouts more)
+
+    Do not know how to add app icon
+
+fun TODO(): { Add Navigation - click on poster and navigate to a second activity to display summary. }
+
+fun TODO(): { Add Search - click on search icon in ActionBar, invoke Search Activity, Search by movie title, release date, or genre. }
+
+fun TODO(): { Add Filter - Filter movies by title, release date, or genre. }
+
+fun TODO(): { Add MARVEL Icon }
