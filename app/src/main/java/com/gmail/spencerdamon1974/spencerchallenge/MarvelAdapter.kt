@@ -13,11 +13,11 @@ class MarvelAdapter(private val marvelMovieList: List<MarvelMovie>) : RecyclerVi
         fun bind(marvelMovie: MarvelMovie) {
             with(binding) {
                 Glide.with(binding.root)
-                    .load(marvelMovie.poster.jpg)
+                    .load(marvelMovie.poster) //(marvelMovie.poster.jpg)
                     .into(binding.ivPoster)
-                tvMovieGenre.text = marvelMovie.genre.movieGenre
-                tvMovieName.text = marvelMovie.title.movieTitle
-                tvReleasedDate.text = marvelMovie.released.movieReleased
+                tvMovieGenre.text = marvelMovie.genre //.movieGenre
+                tvMovieName.text = marvelMovie.title //.movieTitle
+                tvReleasedDate.text = marvelMovie.released //.movieReleased
             }
         }
     }
