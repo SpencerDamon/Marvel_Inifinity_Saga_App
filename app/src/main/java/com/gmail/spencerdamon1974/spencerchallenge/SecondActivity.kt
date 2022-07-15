@@ -20,10 +20,12 @@ class SecondActivity : AppCompatActivity() {
     private fun setUpListeners() {
         binding.btnTop.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
 
         binding.btnBottom.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
     }
 
