@@ -15,7 +15,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae0cc069-9e43-483b-a65f-5f13d48f48a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gmail/spencerdamon1974/spencerchallenge/Challenges and TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gmail/spencerdamon1974/spencerchallenge/Challenges and TODO.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/gmail/spencerdamon1974/spencerchallenge/SecondActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_second.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +89,11 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.1076945489">
+      <recent name="com.gmail.spencerdamon1974.spencerchallenge" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
@@ -329,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657916565719</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add comment to Challenges and TODO.txt to see if works after merge">
+      <created>1657916789244</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1657916789244</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -357,7 +373,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add dependencies to build.gradle&#10;&#10;Glide, Retrofit, Coroutines" />
     <MESSAGE value="Add permissions to INTERNET" />
     <MESSAGE value="Create model class for JSON objects" />
     <MESSAGE value="Create RecyclerView and Progress Bar layout" />
@@ -382,6 +397,7 @@
     <MESSAGE value="Import Marvel icon - but not sure how to implement yet" />
     <MESSAGE value="Create new branch for second part of challenge, add unversioned files" />
     <MESSAGE value="Merge branch 'spencer_first_step_challenge' into spencer_second_step_challenge&#10;&#10;# Conflicts:&#10;#&#9;.idea/vcs.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'spencer_first_step_challenge' into spencer_second_step_challenge&#10;&#10;# Conflicts:&#10;#&#9;.idea/vcs.xml" />
+    <MESSAGE value="Add comment to Challenges and TODO.txt to see if works after merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add comment to Challenges and TODO.txt to see if works after merge" />
   </component>
 </project>
