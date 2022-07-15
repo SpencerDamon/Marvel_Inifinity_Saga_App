@@ -27,6 +27,10 @@ Fix: Add supportActionBar?.title = "Marvel Infinity Saga" to MainActivity OnCrea
 Problem: Movie title TextView with white text was difficult to see on some posters
 Fix: Add tint to TextView background.
 
+Challenges Stage 2
+Problem: Unsure how to create second branch and still get project files
+Fix: Merged first branch into new second branch, however creates a conflict with vcs.xml
+
 ADDITIONAL NOTES:
     Had to do a lot of playing with padding and margin attributes to get correct look.
     (Need to study Layouts more)

@@ -15,8 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae0cc069-9e43-483b-a65f-5f13d48f48a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/gmail/spencerdamon1974/spencerchallenge/Challenges and TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/gmail/spencerdamon1974/spencerchallenge/Challenges and TODO.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657914393997</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Merge branch 'spencer_first_step_challenge' into spencer_second_step_challenge&#10;&#10;# Conflicts:&#10;#&#9;.idea/vcs.xml">
+      <created>1657916565719</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1657916565719</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -351,7 +357,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create new Android Studio project from empty template&#10;&#10;Create new project, copy files to branch, excluded .gitignore dir/files&#10;Build = pass, Run = pass, Emulator = pass" />
     <MESSAGE value="Add dependencies to build.gradle&#10;&#10;Glide, Retrofit, Coroutines" />
     <MESSAGE value="Add permissions to INTERNET" />
     <MESSAGE value="Create model class for JSON objects" />
@@ -376,6 +381,7 @@
     <MESSAGE value="Create Challenges and TODO text&#10;&#10;Lists challenges faced during project build and their fixes&#10;List future TODO" />
     <MESSAGE value="Import Marvel icon - but not sure how to implement yet" />
     <MESSAGE value="Create new branch for second part of challenge, add unversioned files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create new branch for second part of challenge, add unversioned files" />
+    <MESSAGE value="Merge branch 'spencer_first_step_challenge' into spencer_second_step_challenge&#10;&#10;# Conflicts:&#10;#&#9;.idea/vcs.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'spencer_first_step_challenge' into spencer_second_step_challenge&#10;&#10;# Conflicts:&#10;#&#9;.idea/vcs.xml" />
   </component>
 </project>
