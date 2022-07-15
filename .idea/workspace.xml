@@ -14,7 +14,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae0cc069-9e43-483b-a65f-5f13d48f48a2" name="Changes" comment="" />
+    <list default="true" id="ae0cc069-9e43-483b-a65f-5f13d48f48a2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -313,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657488088089</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Create new branch for second part of challenge, add unversioned files">
+      <created>1657914393997</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1657914393997</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,7 +337,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/spencer_first_step_challenge" />
+                        <option value="spencer_first_step_challenge" />
                       </list>
                     </value>
                   </entry>
@@ -338,6 +348,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create new Android Studio project from empty template&#10;&#10;Create new project, copy files to branch, excluded .gitignore dir/files&#10;Build = pass, Run = pass, Emulator = pass" />
@@ -364,6 +375,7 @@
     <MESSAGE value="DELETE unused class files &#10;&#10;Thought movie attributes were JSON Objects - incorrect&#10;Each movie is a single JSON object, with type string attributes" />
     <MESSAGE value="Create Challenges and TODO text&#10;&#10;Lists challenges faced during project build and their fixes&#10;List future TODO" />
     <MESSAGE value="Import Marvel icon - but not sure how to implement yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Import Marvel icon - but not sure how to implement yet" />
+    <MESSAGE value="Create new branch for second part of challenge, add unversioned files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create new branch for second part of challenge, add unversioned files" />
   </component>
 </project>
