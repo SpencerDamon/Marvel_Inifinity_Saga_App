@@ -12,16 +12,32 @@
         android:padding="8dp"
         tools:context=".SecondActivity">
 
+        <Button
+            android:id="@+id/btnTop"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="<"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
         <ImageView
             android:id="@+id/ivDetailsPoster"
             android:layout_width="match_parent"
             android:layout_height="320dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
             android:contentDescription="@null"
             android:scaleType="center"
             android:src="@drawable/marvel_movie_poster_sample"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@id/btnTop" />
 
         <TextView
             android:id="@+id/tvDetailsTitle"
@@ -238,6 +254,21 @@
             app:layout_constraintStart_toEndOf="@id/tvDetailsWritersLabel"
             app:layout_constraintTop_toBottomOf="@id/tvDetailsActorsLabel"
             tools:text="Lorem, ipsum, dolor" />
+
+        <Button
+            android:id="@+id/btnBottom"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textAlignment="center"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="<"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvDetailsWritersLabel"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
