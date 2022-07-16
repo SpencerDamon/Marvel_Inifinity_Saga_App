@@ -4,16 +4,16 @@
         "source": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-main-29:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.gmail.spencerdamon1974.spencerchallenge.app-merged_res-27:/layout_item_marvel_movie_list.xml.flat",
-        "source": "com.gmail.spencerdamon1974.spencerchallenge.app-main-29:/layout/item_marvel_movie_list.xml"
-    },
-    {
         "merged": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-merged_res-27:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-main-29:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-merged_res-27:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-main-29:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-merged_res-27:\\layout_activity_second.xml.flat",
+        "source": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-main-29:\\layout\\activity_second.xml"
     },
     {
         "merged": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-merged_res-27:\\drawable-v24_ic_launcher_foreground.xml.flat",
@@ -52,8 +52,16 @@
         "source": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-main-29:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.gmail.spencerdamon1974.spencerchallenge.app-merged_res-27:/layout_activity_second.xml.flat",
+        "source": "com.gmail.spencerdamon1974.spencerchallenge.app-main-29:/layout/activity_second.xml"
+    },
+    {
         "merged": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-merged_res-27:\\drawable_marvel_movie_poster_sample.jpg.flat",
         "source": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-main-29:\\drawable\\marvel_movie_poster_sample.jpg"
+    },
+    {
+        "merged": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-merged_res-27:\\drawable_marvel_icon.png.flat",
+        "source": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-main-29:\\drawable\\marvel_icon.png"
     },
     {
         "merged": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-merged_res-27:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -64,12 +72,12 @@
         "source": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-main-29:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-merged_res-27:\\layout_item_marvel_movie_list.xml.flat",
-        "source": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-main-29:\\layout\\item_marvel_movie_list.xml"
-    },
-    {
         "merged": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-merged_res-27:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-main-29:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-merged_res-27:\\layout_item_marvel_movie_list.xml.flat",
+        "source": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-main-29:\\layout\\item_marvel_movie_list.xml"
     },
     {
         "merged": "C:\\Users\\spenc\\.gradle\\daemon\\7.3.3\\com.gmail.spencerdamon1974.spencerchallenge.app-merged_res-27:\\drawable_ic_launcher_background.xml.flat",

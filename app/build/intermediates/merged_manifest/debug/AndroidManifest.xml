@@ -24,6 +24,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Spencerchallenge" >
         <activity
+            android:name="com.gmail.spencerdamon1974.spencerchallenge.SecondActivity"
+            android:exported="false" />
+        <activity
             android:name="com.gmail.spencerdamon1974.spencerchallenge.MainActivity"
             android:exported="true" >
             <intent-filter>

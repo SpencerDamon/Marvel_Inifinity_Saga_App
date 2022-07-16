@@ -8,6 +8,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">spencerchallenge</string>
+    <string name="bottom_back_button"><![CDATA[<]]></string>
+    <string name="top_back_button"><![CDATA[<]]></string>
     <style name="Theme.Spencerchallenge" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/black</item>

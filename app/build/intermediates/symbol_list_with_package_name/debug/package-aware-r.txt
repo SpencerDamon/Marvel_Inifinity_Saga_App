@@ -2476,6 +2476,7 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable marvel_icon
 drawable marvel_movie_poster_sample
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -2612,6 +2613,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnBottom
+id btnTop
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2747,6 +2750,7 @@ id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
+id ivDetailsPoster
 id ivPoster
 id jumpToEnd
 id jumpToStart
@@ -2980,6 +2984,22 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvDetailsActors
+id tvDetailsActorsLabel
+id tvDetailsDirectedBy
+id tvDetailsDirectedByLabel
+id tvDetailsFilmLength
+id tvDetailsFilmLengthLabel
+id tvDetailsGenre
+id tvDetailsGenreLabel
+id tvDetailsRating
+id tvDetailsRatingLabel
+id tvDetailsReleased
+id tvDetailsReleasedLabel
+id tvDetailsSummary
+id tvDetailsTitle
+id tvDetailsWriters
+id tvDetailsWritersLabel
 id tvMovieGenre
 id tvMovieName
 id tvReleasedDate
@@ -3098,6 +3118,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_second
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3222,6 +3243,7 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string bottom_back_button
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string character_counter_content_description
@@ -3315,6 +3337,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string top_back_button
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

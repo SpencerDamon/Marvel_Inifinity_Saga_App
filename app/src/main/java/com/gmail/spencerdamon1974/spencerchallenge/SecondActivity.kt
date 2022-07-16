@@ -3,6 +3,7 @@ package com.gmail.spencerdamon1974.spencerchallenge
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.gmail.spencerdamon1974.spencerchallenge.data.remote.model.MarvelMovie
 import com.gmail.spencerdamon1974.spencerchallenge.databinding.ActivitySecondBinding
 
 class SecondActivity : AppCompatActivity() {
@@ -18,6 +19,7 @@ class SecondActivity : AppCompatActivity() {
     }
 
     private fun setUpListeners() {
+
         binding.btnTop.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)

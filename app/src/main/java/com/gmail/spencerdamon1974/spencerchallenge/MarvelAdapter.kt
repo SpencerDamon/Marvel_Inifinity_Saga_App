@@ -1,5 +1,6 @@
 package com.gmail.spencerdamon1974.spencerchallenge
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -18,6 +19,10 @@ class MarvelAdapter(private val marvelMovieList: List<MarvelMovie>) : RecyclerVi
                 tvMovieGenre.text = marvelMovie.genre //.movieGenre
                 tvMovieName.text = marvelMovie.title //.movieTitle
                 tvReleasedDate.text = marvelMovie.released //.movieReleased
+                binding.root.setOnClickListener {
+                    val intent = Intent(binding.root.context, SecondActivity::class.java)
+                    binding.root.context.startActivity(intent)
+                }
             }
         }
     }

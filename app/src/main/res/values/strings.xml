@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">spencerchallenge</string>
+    <string name="bottom_back_button"><![CDATA[<]]></string>
+    <string name="top_back_button"><![CDATA[<]]></string>
 </resources>
