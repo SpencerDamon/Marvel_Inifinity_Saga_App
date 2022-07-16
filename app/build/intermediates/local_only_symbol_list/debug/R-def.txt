@@ -11,7 +11,6 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable marvel_icon
 drawable marvel_movie_poster_sample
-id btnBottom
 id btnTop
 id constraintLayout
 id ivDetailsPoster
@@ -44,7 +43,6 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 string actors
 string app_name
-string bottom_back_button
 string directed_by
 string film_length
 string genre

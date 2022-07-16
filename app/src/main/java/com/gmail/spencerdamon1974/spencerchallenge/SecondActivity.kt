@@ -4,9 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.Glide
-import com.gmail.spencerdamon1974.spencerchallenge.data.remote.model.MarvelMovie
 import com.gmail.spencerdamon1974.spencerchallenge.databinding.ActivitySecondBinding
-import java.lang.System.load
 
 class SecondActivity : AppCompatActivity() {
 
@@ -51,24 +49,15 @@ class SecondActivity : AppCompatActivity() {
     }
 
     private fun setUpListeners() {
-        //val movie = MarvelResponse()
+
         binding.btnTop.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 
-        binding.btnBottom.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-        }
+//        binding.btnBottom.setOnClickListener {
+//            val intent = Intent(this, MainActivity::class.java)
+//            startActivity(intent)
+//        }
     }
-//    fun bind(marvelMovie: MarvelMovie) {
-//        with(binding) {
-//            Glide.with(binding.root)
-//                .load(marvelMovie.poster) //(marvelMovie.poster.jpg)
-//                .into(binding.ivPoster)
-//            tvMovieGenre.text = marvelMovie.genre //.movieGenre
-//            tvMovieName.text = marvelMovie.title //.movieTitle
-//            tvReleasedDate.text = marvelMovie.released //.movieReleased
-
 }

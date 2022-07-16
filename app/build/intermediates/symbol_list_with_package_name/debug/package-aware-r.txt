@@ -2613,7 +2613,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btnBottom
 id btnTop
 id buttonPanel
 id cache_measures
@@ -3245,7 +3244,6 @@ string actors
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
-string bottom_back_button
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string character_counter_content_description
