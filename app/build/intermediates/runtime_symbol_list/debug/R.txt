@@ -3239,6 +3239,7 @@ int string abc_searchview_description_voice 0x7f0e0017
 int string abc_shareactionprovider_share_with 0x7f0e0018
 int string abc_shareactionprovider_share_with_application 0x7f0e0019
 int string abc_toolbar_collapse_description 0x7f0e001a
+int string actors 0x7f0e007d
 int string androidx_startup 0x7f0e001b
 int string app_name 0x7f0e001c
 int string appbar_scrolling_view_behavior 0x7f0e001d
@@ -3250,10 +3251,13 @@ int string character_counter_overflowed_content_description 0x7f0e0021
 int string character_counter_pattern 0x7f0e0022
 int string chip_text 0x7f0e0023
 int string clear_text_end_icon_content_description 0x7f0e0024
+int string directed_by 0x7f0e007e
 int string error_icon_content_description 0x7f0e0025
 int string exposed_dropdown_menu_content_description 0x7f0e0026
 int string fab_transformation_scrim_behavior 0x7f0e0027
 int string fab_transformation_sheet_behavior 0x7f0e0028
+int string film_length 0x7f0e007f
+int string genre 0x7f0e0080
 int string hide_bottom_view_on_scroll_behavior 0x7f0e0029
 int string icon_content_description 0x7f0e002a
 int string item_view_role_description 0x7f0e002b
@@ -3334,9 +3338,12 @@ int string path_password_eye 0x7f0e0075
 int string path_password_eye_mask_strike_through 0x7f0e0076
 int string path_password_eye_mask_visible 0x7f0e0077
 int string path_password_strike_through 0x7f0e0078
+int string rating 0x7f0e0081
+int string released 0x7f0e0082
 int string search_menu_title 0x7f0e0079
 int string status_bar_notification_info_overflow 0x7f0e007a
 int string top_back_button 0x7f0e007c
+int string writers 0x7f0e0083
 int style AlertDialog_AppCompat 0x7f0f0000
 int style AlertDialog_AppCompat_Light 0x7f0f0001
 int style AndroidThemeColorAccentYellow 0x7f0f0002

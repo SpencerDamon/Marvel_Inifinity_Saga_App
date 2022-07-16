@@ -21,6 +21,16 @@ class MarvelAdapter(private val marvelMovieList: List<MarvelMovie>) : RecyclerVi
                 tvReleasedDate.text = marvelMovie.released //.movieReleased
                 binding.root.setOnClickListener {
                     val intent = Intent(binding.root.context, SecondActivity::class.java)
+                    intent.putExtra("poster", marvelMovie.poster)
+                    intent.putExtra("title", marvelMovie.title)
+                    intent.putExtra("plot", marvelMovie.plot)
+                    intent.putExtra("genre", marvelMovie.genre)
+                    intent.putExtra("released", marvelMovie.released)
+                    intent.putExtra("director", marvelMovie.director)
+                    intent.putExtra("runtime", marvelMovie.runtime)
+                    intent.putExtra("rated", marvelMovie.rated)
+                    intent.putExtra("actors", marvelMovie.actors)
+                    intent.putExtra("writer", marvelMovie.writer)
                     binding.root.context.startActivity(intent)
                 }
             }
