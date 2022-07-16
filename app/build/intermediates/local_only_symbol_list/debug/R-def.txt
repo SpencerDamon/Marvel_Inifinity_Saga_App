@@ -13,6 +13,7 @@ drawable marvel_icon
 drawable marvel_movie_poster_sample
 id btnBottom
 id btnTop
+id constraintLayout
 id ivDetailsPoster
 id ivPoster
 id progressLoading

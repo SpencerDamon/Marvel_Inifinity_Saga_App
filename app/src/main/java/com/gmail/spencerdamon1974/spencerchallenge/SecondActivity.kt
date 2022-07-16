@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.Glide
+import com.gmail.spencerdamon1974.spencerchallenge.data.remote.model.MarvelMovie
 import com.gmail.spencerdamon1974.spencerchallenge.databinding.ActivitySecondBinding
 import java.lang.System.load
 
@@ -31,8 +32,8 @@ class SecondActivity : AppCompatActivity() {
 
 
         if (moviePoster != null) {
-            Glide.with(binding.root)
-                .load("poster")
+            Glide.with(binding.constraintLayout)
+                .load(moviePoster)
                 .into(binding.ivDetailsPoster)
         }
 
