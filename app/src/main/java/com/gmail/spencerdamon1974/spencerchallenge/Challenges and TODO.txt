@@ -27,6 +27,30 @@ Fix: Add supportActionBar?.title = "Marvel Infinity Saga" to MainActivity OnCrea
 Problem: Movie title TextView with white text was difficult to see on some posters
 Fix: Add tint to TextView background.
 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Challenges Stage 2
+
+Problem: Unsure how to create second branch and still get project files
+Fix: Merged first branch into new second branch, however creates a conflict with vcs.xml
+
+Problem: Too many text views for a single activity view without a scroll bar
+Fix: Implemented a ScrollView as the root view for the Second Activity, nested a constraint layout
+
+Problem: Unable to pass api to second activity
+Fix: passed data to second activity as putExtra as individual val of Type String
+     received data as getExtra with individual if null safety checks and received individual strings
+
+Problem: Unable to pass image to view element in second activity with Glide
+Fix:  Assigned an ID to constraint layout and passed the stored value with intent to the Glide load
+      function
+
+Problem: Unsure how to outline button
+Fix: Add to Button element attributes: style="@style/Widget.Material3.Button.OutlinedButton"
+                                       app:strokeColor="@color/white"
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ADDITIONAL NOTES:
     Had to do a lot of playing with padding and margin attributes to get correct look.
     (Need to study Layouts more)
