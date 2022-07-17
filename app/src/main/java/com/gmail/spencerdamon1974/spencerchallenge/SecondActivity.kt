@@ -13,10 +13,27 @@ class SecondActivity : AppCompatActivity() {
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(binding.root)
+
+        supportActionBar?.title = "Marvel Infinity Saga Movie Summary"
 
         setUpListeners()
 
+        callApi()
+
+
+    }
+
+    private fun setUpListeners() {
+
+        binding.btnTop.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    private fun secondActivityCallApi() {
         val moviePoster = intent.getStringExtra("poster")
         val movieTitle = intent.getStringExtra("title")
         val moviePlot = intent.getStringExtra("plot")
@@ -34,7 +51,6 @@ class SecondActivity : AppCompatActivity() {
                 .load(moviePoster)
                 .into(binding.ivDetailsPoster)
         }
-
         if (movieTitle != null) binding.tvDetailsTitle.text = movieTitle
         if (moviePlot != null) binding.tvDetailsSummary.text = moviePlot
         if (movieGenre != null) binding.tvDetailsGenre.text = movieGenre
@@ -44,20 +60,7 @@ class SecondActivity : AppCompatActivity() {
         if (movieRating != null) binding.tvDetailsRating.text = movieRating
         if (movieActors != null) binding.tvDetailsActors.text = movieActors
         if (movieWriters != null) binding.tvDetailsWriters.text = movieWriters
-
-
     }
 
-    private fun setUpListeners() {
-
-        binding.btnTop.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-        }
-
-//        binding.btnBottom.setOnClickListener {
-//            val intent = Intent(this, MainActivity::class.java)
-//            startActivity(intent)
-//        }
-    }
+    private fun callApi() = secondActivityCallApi()
 }

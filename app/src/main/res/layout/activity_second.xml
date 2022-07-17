@@ -3,14 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/black">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/black"
-        android:padding="8dp"
+        android:layout_margin="4dp"
         tools:context=".SecondActivity">
 
         <Button
@@ -36,7 +37,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:contentDescription="@null"
-            android:scaleType="center"
+            android:scaleType="centerCrop"
             android:src="@drawable/marvel_movie_poster_sample"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -220,6 +221,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
             android:textAlignment="viewStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/white"
@@ -231,16 +233,16 @@
 
         <TextView
             android:id="@+id/tvDetailsActors"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:textAlignment="viewStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@id/tvDetailsActorsLabel"
-            app:layout_constraintTop_toBottomOf="@id/tvDetailsRatingLabel"
+            android:autoSizeTextType="uniform"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvDetailsActorsLabel"
             tools:text="Lorem, ipsum, dolor" />
 
         <TextView
@@ -255,21 +257,20 @@
             android:textStyle="bold"
             android:text="@string/writers"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvDetailsActorsLabel"
+            app:layout_constraintTop_toBottomOf="@id/tvDetailsActors"
             tools:text="Writers:" />
 
         <TextView
             android:id="@+id/tvDetailsWriters"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:textAlignment="viewStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/white"
-            app:layout_constraintStart_toEndOf="@id/tvDetailsWritersLabel"
-            app:layout_constraintTop_toBottomOf="@id/tvDetailsActorsLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvDetailsWritersLabel"
             tools:text="Lorem, ipsum, dolor" />
 
 
