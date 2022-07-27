@@ -5,10 +5,10 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class MarvelMovie(
-    val poster: String, //Poster,
-    val title: String, //Title,
-    val released: String, //Released,
-    val genre: String, //Genre
+    val poster: String,
+    val title: String,
+    val released: String,
+    val genre: String,
     val rated: String,
     val runtime: String,
     val director: String,
