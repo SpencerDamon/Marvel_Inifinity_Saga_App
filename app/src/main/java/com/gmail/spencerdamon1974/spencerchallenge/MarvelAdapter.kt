@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.gmail.spencerdamon1974.spencerchallenge.SecondActivity.Companion.MARVEL
 import com.gmail.spencerdamon1974.spencerchallenge.data.remote.model.MarvelMovie
 import com.gmail.spencerdamon1974.spencerchallenge.databinding.ItemMarvelMovieListBinding
 
@@ -22,7 +23,7 @@ class MarvelAdapter(private val marvelMovieList: List<MarvelMovie>) : RecyclerVi
 
                 binding.root.setOnClickListener {
                     val intent = Intent(binding.root.context, SecondActivity::class.java)
-                    intent.putExtra("marvel", marvelMovie)
+                    intent.putExtra(MARVEL, marvelMovie)
                     binding.root.context.startActivity(intent)
                 }
             }

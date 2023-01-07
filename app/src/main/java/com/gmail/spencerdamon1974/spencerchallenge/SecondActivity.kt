@@ -1,6 +1,7 @@
 package com.gmail.spencerdamon1974.spencerchallenge
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.Glide
@@ -12,6 +13,11 @@ class SecondActivity : AppCompatActivity() {
     private val binding: ActivitySecondBinding by lazy {
         ActivitySecondBinding.inflate(layoutInflater)
     }
+
+    companion object {
+        const val MARVEL = "marvel"
+        const val SEARCH_PREFIX = "https://www.google.com/search?q="
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -20,21 +26,31 @@ class SecondActivity : AppCompatActivity() {
         supportActionBar?.title = "Marvel Infinity Saga Movie Summary"
 
         setUpListeners()
+        setQueryListeners()
 
         callApi()
     }
 
+    /* Explicit intent to navigate to first activity */
     private fun setUpListeners() {
-
         binding.btnTop.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }
 
+    /* Implicit intent to query Google Search for film title */
+    private fun setQueryListeners() {
+        binding.ivDetailsPoster.setOnClickListener {
+            val queryUrl: Uri = Uri.parse("$SEARCH_PREFIX${binding.tvDetailsTitle.text}")
+            val intent = Intent(Intent.ACTION_VIEW, queryUrl)
+            startActivity(intent)
+        }
+    }
+
     private fun secondActivityCallApi() {
 
-        val marvelIntent = intent.getParcelableExtra<MarvelMovie>("marvel")
+        val marvelIntent = intent.getParcelableExtra<MarvelMovie>(MARVEL)
 
         if (marvelIntent != null) {
             Glide.with(binding.constraintLayout)
